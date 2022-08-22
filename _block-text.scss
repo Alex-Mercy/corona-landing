@@ -1,0 +1,31 @@
+.block-text {
+  &__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    color: #000;
+    @include breakpoint(sm) {
+      font-size: 34px;
+    }
+    &:not(:last-child) {
+      margin: 0 0 12px 0;
+    }
+  }
+  &__span {
+    color: $red;
+    &_blue {
+      color: $blue;
+    }
+  }
+
+  &__text {
+    line-height: 138.5%;
+
+    &:not(:last-child) {
+      margin: 0 0 24px 0;
+    }
+  }
+
+  &__button {
+  }
+}
