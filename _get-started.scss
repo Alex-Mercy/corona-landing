@@ -9,7 +9,7 @@
     @include breakpoint(sm) {
       padding: 100px 15px 30px 15px;
     }
-    &:before {
+    &::before {
       content: "";
       position: absolute;
       width: 100vw;

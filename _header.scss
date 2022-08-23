@@ -15,7 +15,7 @@
       .close-icon-menu {
         display: flex;
       }
-      .menu__body:before {
+      .menu__body::before {
         content: "";
         position: fixed;
         top: 0;

@@ -27,5 +27,9 @@ $light-gray: #b0b0b0;
     @media (max-width: 479.98px) {
       @content;
     }
+  } @else if $point == minmd {
+    @media (min-width: 991.98px) {
+      @content;
+    }
   }
 }
