@@ -591,6 +591,11 @@
 .healthare {
   padding: 80px 0 30px 0;
 }
+@media (max-width: 991.98px) {
+  .healthare {
+    padding: 30px 0 30px 0;
+  }
+}
 .healthare__container {
   padding: 0 15px;
 }
@@ -601,10 +606,23 @@
   display: flex;
   margin: 0 auto;
 }
+@media (max-width: 767.98px) {
+  .healthare__items {
+    flex-direction: column;
+  }
+}
 .healthare__column {
   position: relative;
   padding: 0px 36px;
   flex: 0 1 33, 333%;
+}
+@media (max-width: 991.98px) {
+  .healthare__column {
+    padding: 0 15px;
+  }
+  .healthare__column:not(:last-child) {
+    margin: 0 0 25px 0;
+  }
 }
 .healthare__column_1::before,
 .healthare__column_1 ::after {
@@ -682,6 +700,27 @@
   line-height: 138.5%;
 }
 
+.footer {
+  padding: 45px 0;
+}
+@media (max-width: 479.98px) {
+  .footer {
+    fpadding: 25px 0;
+  }
+}
+.footer__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 20px;
+}
+@media (max-width: 479.98px) {
+  .footer__items {
+    flex-direction: column;
+  }
+}
 *,
 *::before,
 *::after {

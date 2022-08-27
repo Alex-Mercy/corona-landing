@@ -1,0 +1,22 @@
+.footer {
+  padding: 45px 0;
+  @include breakpoint(xs) {
+    fpadding: 25px 0;
+  }
+  &__container {
+  }
+
+  &__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 20px;
+    @include breakpoint(xs) {
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+  }
+}
