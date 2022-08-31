@@ -8,5 +8,5 @@ ____
 
 
 ## 2. Ссылка на сайт:
-https://alex-mercy.github.io/corona-landing/#close
+https://alex-mercy.github.io/corona-landing
 
